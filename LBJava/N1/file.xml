@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="19.0.1" class="java.beans.XMLDecoder">
+ <object class="LB4.Bank" id="Bank0">
+  <void property="accounts">
+   <void method="add">
+    <object class="LB4.Standart">
+     <void property="balance">
+      <int>100</int>
+     </void>
+     <void property="numb">
+      <int>1</int>
+     </void>
+     <void property="pin">
+      <int>1123</int>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="LB4.Standart">
+     <void property="balance">
+      <int>5000</int>
+     </void>
+     <void property="numb">
+      <int>2</int>
+     </void>
+     <void property="pin">
+      <int>1234</int>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="LB4.Preferential">
+     <void property="balance">
+      <int>100</int>
+     </void>
+     <void property="numb">
+      <int>3</int>
+     </void>
+     <void property="pin">
+      <int>7777</int>
+     </void>
+    </object>
+   </void>
+  </void>
+ </object>
+</java>
